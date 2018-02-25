@@ -1,0 +1,65 @@
+<!-- <h1>Latest block:  <%#= @current_block_number %></h1>
+<h2>Blocks to Callisto:  <%#= @blocks_left_for_callisto %></h2>
+
+<h2>Estimated date for Callisto: <%#= @estimated_days_for_callisto %></h2> -->
+
+
+<div id="header">
+	<div class="header-content">
+		<div class="countdown" id="countdown">
+			<div class="container">
+				<div class="row">
+					<div class="countdown-item col-sm-3 col-xs-3">
+						<div class="countdown-number" id="countdown-days">440</div>
+						<div class="countdown-label">days</div>
+					</div>
+
+					<div class="countdown-item col-sm-3 col-xs-3">
+						<div class="countdown-number" id="countdown-hours">04</div>
+						<div class="countdown-label">hours</div>
+					</div>
+
+					<div class="countdown-item col-sm-3 col-xs-3">
+						<div class="countdown-number" id="countdown-minutes">51</div>
+						<div class="countdown-label">minutes</div>
+					</div>
+
+					<div class="countdown-item col-sm-3 col-xs-3">
+						<div class="countdown-number" id="countdown-seconds">44</div>
+						<div class="countdown-label">seconds</div>
+					</div>
+				</div>
+				<div class="row">
+					<form id="newsletter-form" action="send.php" method="POST" class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 myform" novalidate>
+						<div class="input-group">
+							<input id="newsletter-mail" name="email" placeholder="Enter your email" class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+							<span class="input-group-btn">
+								<button name="submit" type="submit" class="btn" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent">Subscribe!</button>
+							</span>
+						</div>
+						<input type="hidden" name="submitted" id="submitted2" value="true">
+					</form>
+				</div>	
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div>
+					<ul class="social-links text-center">
+						<li><a href="#link"><i class="icon-twitter"></i></a></li>
+						<li><a href="#link"><i class="icon-facebook"></i></a></li>
+						<li><a href="#link"><i class="icon-googleplus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>put here a donation for ethereum.</p>
+		</footer>
+	</div>
+</div>
+<!-- 
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/ga.js"></script> -->
